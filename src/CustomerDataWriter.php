@@ -96,7 +96,7 @@ class CustomerDataWriter
      */
     public function getPublishedDateTime(): string
     {
-        if (self::$publishedDateTime === '') {
+        if (self::$publishedDateTime === '' || self::$publishedDateTime === null) {
             throw new Exception('Please specify published date time');
         }
 
@@ -110,7 +110,7 @@ class CustomerDataWriter
      */
     public function getUpdatedDateTime(): string
     {
-        if (self::$updatedDateTime === '') {
+        if (self::$updatedDateTime === '' || self::$updatedDateTime === null) {
             throw new Exception('Please specify updated date time');
         }
 
