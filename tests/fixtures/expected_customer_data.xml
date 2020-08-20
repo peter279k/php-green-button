@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <id>urn:uuid:E0715A6E-6549-44D2-AC0A-90E688EAF372</id>
+ <title>Green Button Customer Feed</title>
+ <updated>2020-08-20T07:05:51Z</updated>
+ <entry>
+  <id>urn:uuid:2C9BA66C-CCD6-471B-A687-55715D2E771E</id>
+  <link href="DataCustodian/espi/1_1/resource/RetailCustomer/VJEWP31BE/Customer/1/CustomerAccount/1111111" rel="self"/>
+  <link href="DataCustodian/espi/1_1/resource/RetailCustomer/VJEWP31BE/Customer/1/CustomerAccount" rel="up"/>
+  <link href="DataCustodian/espi/1_1/resource/RetailCustomer/VJEWP31BE/Customer/1/CustomerAccount/1111111/CustomerAgreement" rel="related"/>
+  <title>CustomerAccount information</title>
+  <content>
+   <CustomerAccount xmlns="http://naesb.org/espi/customer">
+    <accountId>Peter</accountId>
+   </CustomerAccount>
+  </content>
+  <published>2020-08-20T07:05:51Z</published>
+  <updated>2020-08-20T07:05:51Z</updated>
+ </entry>
+ <entry>
+  <id>urn:uuid:AB6490AF-801F-44D2-A3A8-115522E34971</id>
+  <link href="DataCustodian/espi/1_1/resource/RetailCustomer/VJEWP31BE/Customer/1/CustomerAccount/1111111/CustomerAgreement/NB6WRU" rel="self"/>
+  <link href="DataCustodian/espi/1_1/resource/RetailCustomer/VJEWP31BE/Customer/1/CustomerAccount/1111111/CustomerAgreement" rel="up"/>
+  <title>CustomerAgreement information</title>
+  <content>
+   <CustomerAgreement xmlns="http://naesb.org/espi/customer">
+    <agreementId>Peter</agreementId>
+   </CustomerAgreement>
+  </content>
+  <published>2020-08-20T07:05:51Z</published>
+  <updated>2020-08-20T07:05:51Z</updated>
+ </entry>
+ <entry>
+  <id>urn:uuid:0D3569FB-7B96-4BA0-A15E-675735474987</id>
+  <link href="DataCustodian/espi/1_1/resource/RetailCustomer/VJEWP31BE/Customer/1/CustomerAccount/1111111/CustomerAgreement/NB6WRU/Meter/14106263" rel="self"/>
+  <link href="DataCustodian/espi/1_1/resource/RetailCustomer/VJEWP31BE/Customer/1/CustomerAccount/1111111/CustomerAgreement/NB6WRU/Meter" rel="up"/>
+  <link href="DataCustodian/espi/1_1/resource/RetailCustomer/VJEWP31BE/Customer/1/CustomerAccount/1111111/CustomerAgreement/NB6WRU/Meter/14106263/EndDevice" rel="related"/>
+  <title>Meter form information</title>
+  <content>
+   <Meter xmlns="http://naesb.org/espi/customer">
+    <formNumber>TD17234599</formNumber>
+   </Meter>
+  </content>
+  <published>2020-08-20T07:05:51Z</published>
+  <updated>2020-08-20T07:05:51Z</updated>
+ </entry>
+</feed>
