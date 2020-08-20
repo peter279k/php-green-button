@@ -2,6 +2,8 @@
 
 A Green Button Generator for PHP.
 
+![PHP](https://github.com/peter279k/php-green-button/workflows/PHP/badge.svg)
+
 ## Requirements
 
 * PHP 7.2+
